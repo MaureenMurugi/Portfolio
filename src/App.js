@@ -5,8 +5,10 @@ import { Banner } from './components/Banner';
 import { Skills } from './components/Skills';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Projects } from './components/Projects';
-import { Contact } from './components/Contact';
+// import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import ContactForm from './components/ContactForm';
+import { Newsletter } from './components/Newsletter';
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
       <Banner />
       <Skills />
       <Projects/>
-      <Contact />
+      <ContactForm />
+      <Newsletter/>
       <Footer/>
     </div>
   );
